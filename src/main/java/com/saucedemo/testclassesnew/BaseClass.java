@@ -33,6 +33,7 @@ public class BaseClass
 		// driver.manage().deleteAllCookies();
 driver.get("https://www.saucedemo.com/");
 driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
+System.out.println("aswari");
 	}
 //	else
 //	{
