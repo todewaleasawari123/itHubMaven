@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" parallel ="classes" name="Test">
+    <classes>
+      <class name="com.saucedemo.testclassesnew.TC01NewPractice"/>
+     
+     
+      <class name="com.saucedemo.testclassesnew.TC03toclick1productPractice"/>
+     
+      <class name="com.saucedemo.testclassesnew.TC04ClickOnMultiplaProductsPractice"/>
+      <class name="com.saucedemo.testclassesnew.TC02CheckFilterPractice"/>
+     
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
